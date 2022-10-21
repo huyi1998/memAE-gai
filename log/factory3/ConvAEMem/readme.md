@@ -1,0 +1,4 @@
+- lr_0.00020_entropyloss_0.00000_version_1：有光流，train（35），test（11），ShrinkThres 0.0025，EntropyLossWeight 0
+- lr_0.00020_entropyloss_0.00000_version_2：有光流，train（40），test（11），ShrinkThres 0.0025，EntropyLossWeight 0
+- lr_0.00020_entropyloss_0.00000_version_3: 无光流，train（40），test（11和12均有），ShrinkThres 0.0025，EntropyLossWeight 0
+- lr_0.00020_entropyloss_0.00000_version_4: 无光流，train（40），test（11），ShrinkThres 0，EntropyLossWeight 0

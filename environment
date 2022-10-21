@@ -1,0 +1,15 @@
+conda create -n pre python=3.8
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+conda install -c conda-forge cupy
+conda install scipy
+pip install opencv-python
+conda install scikit-learn
+conda install matplotlib
+conda install tensorboardX
+conda install tqdm
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+# 解决方法
+echo "conda activate" >> ~/.bashrc
+source ~/.bashrc
